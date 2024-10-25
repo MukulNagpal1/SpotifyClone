@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     int _currentIndex = 0;
-
+// this is test
     void _onItemTapped(int index) {
       setState(() {
         _currentIndex = index;
@@ -167,7 +167,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-                       SizedBox(
+            SizedBox(
               height: 20,
             ),
             SingleChildScrollView(
